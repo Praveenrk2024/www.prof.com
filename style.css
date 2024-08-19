@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Moderustic:wght@300..800&family=Playwrite+PE:wght@100..400&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&display=swap');
+/* font-family: "Moderustic", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Moderustic:wght@300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+PE:wght@100..400&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&display=swap');
+/* font-family: "PT Sans", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 25vw;
+    height: 70vh;
+    background-color:white;
+    position: relative;
+    left: 450px;
+    top: 70px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+.img{
+
+    background-color: rgba(47, 47, 250, 0.778);
+    
+    
+}
+
+.img img{
+    position: relative;
+    left: 115px;
+    top: 45px;
+    border-radius: 80%;
+    border: 4px solid white;
+}
+
+.subscript{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ssc{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+   
+}
+
+.ss{
+    font-family: "Moderustic", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+.items img{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.subscirbe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.sub1{
+    
+    background: rgba(47, 47, 250, 0.778);
+    margin: 10px 10px 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+    
+}
+
+
+
+
+.sub2{
+    background-color: rgba(47, 47, 250, 0.778);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+}
+
+.sub1:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid lightblue;
+}
+
+.sub2:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid lightblue;
+}
+
+.chat
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.chat span{
+    padding-right: 20px;
+}
+
+.chat img{
+    padding: 20px 10px;
+
+}
+
+/* .heart:hover{
+    color: red;
+} */
+
+@media only screen and (max-width: 600px){
+    .container{
+    width: 60vw;
+    height: 70vh;
+    background-color:white;
+    position: relative;
+    left: 100px;
+    top: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .img img{
+        left: 100px;
+    }
+}
