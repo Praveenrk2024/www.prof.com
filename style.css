@@ -144,8 +144,8 @@
 
 @media only screen and (max-width: 600px){
     .container{
-    width: 60vw;
-    height: 50vh;
+    width: 65vw;
+    height: 85vh;
     background-color:white;
     position: relative;
     left: 100px;
@@ -155,6 +155,6 @@
     }
 
     .img img{
-        left: 100px;
+        left: 70px;
     }
 }
